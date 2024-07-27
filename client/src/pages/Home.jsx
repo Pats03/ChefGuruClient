@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <main className="w-full flex flex-col pt-23">
+      <main className="w-full flex flex-col pt-23 bg-cream">
         <Header
           titles={titles} // Changed from title to titles
           type="home"
