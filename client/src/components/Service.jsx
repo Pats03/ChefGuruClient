@@ -24,7 +24,11 @@ const services = [
 
 const Service = () => {
   return (
+<<<<<<< HEAD
     <section className="py-10 px-4 md:px-20 bg-gray-100">
+=======
+    <section className="py-10 px-4 md:px-20 bg-cream-100">
+>>>>>>> 8db5cde1124f36b515bd386ef793dbc0abdf7995
       <h2 className="text-2xl md:text-4xl font-bold mb-6 text-center text-gray-800">
         Our E-Commerce Services
       </h2>

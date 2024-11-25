@@ -30,10 +30,20 @@ const features = [
 
 const FeaturesPage = () => {
   return (
+<<<<<<< HEAD
     <div className="py-10 px-6 max-w-7xl mx-auto text-center">
       <h2 className="text-3xl font-bold mb-4">Features</h2>\
       <p className="text-3xl font-bold text-white mb-8 text-center">
         Discover the powerful features of SYNKRO
+=======
+    <section className="py-10 px-4 md:px-20  bg-yellow-100">
+      <h2 className="text-2xl md:text-4xl font-bold mb-6 text-center">
+        A Taste of Our Kitchen
+      </h2>
+      <p className="text-1.3xl  text-center">
+        Feast your eyes on the culinary masterpieces and moments from our
+        cooking classes, where creativity meets flavor.
+>>>>>>> 8db5cde1124f36b515bd386ef793dbc0abdf7995
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {features.map((feature, index) => (
