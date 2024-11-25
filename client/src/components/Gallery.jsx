@@ -5,7 +5,7 @@ const Gallery = () => {
   const images = [Banner1, Banner2, Banner3, Banner4, Banner5];
 
   return (
-    <section className="py-10 px-4 md:px-20">
+    <section className="py-10 px-4 md:px-20  bg-yellow-100">
       <h2 className="text-2xl md:text-4xl font-bold mb-6 text-center">
         A Taste of Our Kitchen
       </h2>
