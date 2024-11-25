@@ -1,14 +1,19 @@
 import React from 'react';
-import Logo from '../images/logo.png';
-import Button from './Button';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate hook
 
 const Navbar = () => {
+  const navigate = useNavigate(); // Initialize useNavigate hook
+
   const handleScroll = (event, targetId) => {
     event.preventDefault();
     const targetElement = document.getElementById(targetId);
     if (targetElement) {
       targetElement.scrollIntoView({ behavior: 'smooth' });
     }
+  };
+
+  const handleSignInClick = () => {
+    navigate('./login'); // Use navigate to redirect to the login page
   };
 
   return (
@@ -18,12 +23,7 @@ const Navbar = () => {
           href="/"
           className="flex items-center justify-center text-white text-lg cursor-pointer"
         >
-          <img
-            src={Logo}
-            alt="Logo"
-            className="hidden md:block w-8 h-8 lg:w-14 lg:h-14"
-          />
-          Chef<span>Guru</span>
+          SYN<span>KRO</span>
         </a>
 
         <ul className="hidden md:flex text-white gap-6">
@@ -38,7 +38,7 @@ const Navbar = () => {
               href="#gallery"
               onClick={(e) => handleScroll(e, 'gallery')}
             >
-              Gallery
+              Features
             </a>
           </li>
           <li>
@@ -47,7 +47,7 @@ const Navbar = () => {
               className="hover:font-extrabold"
               onClick={(e) => handleScroll(e, 'testimonials')}
             >
-              Testimonials
+              Pricing
             </a>
           </li>
           <li>
@@ -56,24 +56,25 @@ const Navbar = () => {
               href="#team"
               onClick={(e) => handleScroll(e, 'team')}
             >
-              Team
+              Companies
             </a>
           </li>
           <li>
             <a
               className="hover:font-extrabold"
-                  href="#service"
+              href="#service"
               onClick={(e) => handleScroll(e, 'service')}
             >
               Service
             </a>
           </li>
         </ul>
-
-        <Button
-          title="Sign in"
-          containerStyle="hidden md:block bg-black border border-white text-white hover:bg-white hover:text-slate-700 rounded-full min-w-[130px]"
-        />
+        <button
+          onClick={handleSignInClick} // Add the onClick handler here
+          className="text-white bg-transparent border-2 border-white hover:bg-black hover:text-white py-2 px-4 rounded"
+        >
+          Sign In
+        </button>
       </nav>
     </header>
   );

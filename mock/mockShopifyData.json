@@ -1,0 +1,212 @@
+{
+    "store1": {
+      "apiKey": "4bc99b15930b5c9d8756eda31fbdb6d0",
+      "products": [
+    { "id": "1", "title": "Apple iPhone 15", "sku": "IP15-256GB", "inventory_quantity": 120 },
+    { "id": "2", "title": "Samsung Galaxy S24", "sku": "SGS24-128GB", "inventory_quantity": 80 },
+    { "id": "3", "title": "Sony WH-1000XM5 Headphones", "sku": "SWHXM5-BLK", "inventory_quantity": 50 },
+    { "id": "4", "title": "Dell XPS 13 Laptop", "sku": "DXPS13-INTEL", "inventory_quantity": 40 },
+    { "id": "5", "title": "Fitbit Charge 5", "sku": "FBCH5-BLK", "inventory_quantity": 150 },
+    { "id": "6", "title": "Nike Air Zoom Pegasus 40", "sku": "NAZP40-MENS", "inventory_quantity": 200 }
+  ],
+      "orders": [
+    { "id": "106", "customer": "Sarah Lee", "line_items": [{ "name": "Apple iPhone 15", "quantity": 2 }] },
+    { "id": "107", "customer": "John Doe", "line_items": [{ "name": "Samsung Galaxy S24", "quantity": 3 }] },
+    { "id": "108", "customer": "Emily Clark", "line_items": [{ "name": "Sony WH-1000XM5 Headphones", "quantity": 1 }] },
+    { "id": "109", "customer": "Michael Brown", "line_items": [{ "name": "Dell XPS 13 Laptop", "quantity": 1 }] },
+    { "id": "110", "customer": "Olivia Smith", "line_items": [{ "name": "Fitbit Charge 5", "quantity": 4 }] },
+    { "id": "111", "customer": "Liam Johnson", "line_items": [{ "name": "Nike Air Zoom Pegasus 40", "quantity": 2 }] },
+    { "id": "112", "customer": "Sophia Williams", "line_items": [{ "name": "Apple iPhone 15", "quantity": 1 }] }
+  ],
+      "inventory": [
+    { "id": "1", "sku": "A1-123", "quantity": 50, "name": "Apple iPhone 15" },
+    { "id": "2", "sku": "B1-123", "quantity": 30, "name": "Samsung Galaxy S24" },
+    { "id": "3", "sku": "A2-123", "quantity": 20, "name": "Sony WH-1000XM5 Headphones" },
+    { "id": "4", "sku": "A3-123", "quantity": 10, "name": "Dell XPS 13 Laptop" },
+    { "id": "5", "sku": "A4-123", "quantity": 100, "name": "Fitbit Charge 5" },
+    { "id": "6", "sku": "A5-123", "quantity": 75, "name": "Nike Air Zoom Pegasus 40" },
+    { "id": "7", "sku": "A6-123", "quantity": 40, "name": "Apple iPhone 15" }
+  ],
+      "orderTracking": [
+    { "orderId": "106", "tracking_number": "TRACK6789", "status": "Delivered", "product_name": "Apple iPhone 15" },
+    { "orderId": "107", "tracking_number": "TRACK6790", "status": "Shipped", "product_name": "Samsung Galaxy S24" },
+    { "orderId": "108", "tracking_number": "TRACK6791", "status": "Delivered", "product_name": "Sony WH-1000XM5 Headphones" },
+    { "orderId": "109", "tracking_number": "TRACK6792", "status": "Pending", "product_name": "Dell XPS 13 Laptop" }
+  ]
+    },
+    "store2": {
+      "apiKey": "a4d3f21c5eac4bb5b0c5a0132eaa1f30",
+      "products": [
+    { "id": "7", "title": "Sony PlayStation 5", "sku": "PS5-STD", "inventory_quantity": 250 },
+    { "id": "8", "title": "Apple MacBook Air M2", "sku": "MBA-M2-256GB", "inventory_quantity": 75 },
+    { "id": "9", "title": "Bose QuietComfort 45", "sku": "BC45-BLK", "inventory_quantity": 65 },
+    { "id": "10", "title": "Microsoft Surface Pro 9", "sku": "MSP9-128GB", "inventory_quantity": 60 },
+    { "id": "11", "title": "Canon EOS Rebel T7", "sku": "CRT7-18-55MM", "inventory_quantity": 90 },
+    { "id": "12", "title": "GoPro Hero 11 Black", "sku": "GPH11-BLK", "inventory_quantity": 110 }
+  ],
+      "orders": [
+    { "id": "113", "customer": "Ethan Davis", "line_items": [{ "name": "Sony PlayStation 5", "quantity": 1 }] },
+    { "id": "114", "customer": "Mason Wilson", "line_items": [{ "name": "Apple MacBook Air M2", "quantity": 2 }] },
+    { "id": "115", "customer": "Ava Martinez", "line_items": [{ "name": "Bose QuietComfort 45", "quantity": 1 }] },
+    { "id": "116", "customer": "Isabella Moore", "line_items": [{ "name": "Microsoft Surface Pro 9", "quantity": 1 }] },
+    { "id": "117", "customer": "James Taylor", "line_items": [{ "name": "Canon EOS Rebel T7", "quantity": 2 }] },
+    { "id": "118", "customer": "Charlotte Anderson", "line_items": [{ "name": "GoPro Hero 11 Black", "quantity": 1 }] },
+    { "id": "119", "customer": "Benjamin Thomas", "line_items": [{ "name": "Sony PlayStation 5", "quantity": 1 }] }
+  ],
+      "inventory": [
+    { "id": "8", "sku": "PS5-STD", "quantity": 250, "name": "Sony PlayStation 5" },
+    { "id": "9", "sku": "MBA-M2-256GB", "quantity": 75, "name": "Apple MacBook Air M2" },
+    { "id": "10", "sku": "BC45-BLK", "quantity": 65, "name": "Bose QuietComfort 45" },
+    { "id": "11", "sku": "MSP9-128GB", "quantity": 60, "name": "Microsoft Surface Pro 9" },
+    { "id": "12", "sku": "CRT7-18-55MM", "quantity": 90, "name": "Canon EOS Rebel T7" },
+    { "id": "13", "sku": "GPH11-BLK", "quantity": 110, "name": "GoPro Hero 11 Black" },
+    { "id": "14", "sku": "PS5-STD", "quantity": 250, "name": "Sony PlayStation 5" }
+  ],
+      "orderTracking": [
+    { "orderId": "110", "tracking_number": "TRACK6793", "status": "Delivered", "product_name": "Fitbit Charge 5" },
+    { "orderId": "111", "tracking_number": "TRACK6794", "status": "Shipped", "product_name": "Nike Air Zoom Pegasus 40" },
+    { "orderId": "112", "tracking_number": "TRACK6795", "status": "Delivered", "product_name": "Apple iPhone 15" },
+    { "orderId": "113", "tracking_number": "TRACK6796", "status": "Shipped", "product_name": "Samsung Galaxy S24" }
+  ]
+    },
+    "store3": {
+      "apiKey": "c26b7a8e76fb4f9f9412de234fa24981",
+      "products": [
+    { "id": "13", "title": "Apple AirPods Pro 2nd Gen", "sku": "APP2-WHT", "inventory_quantity": 150 },
+    { "id": "14", "title": "Samsung QLED 4K TV", "sku": "QLED-55", "inventory_quantity": 35 },
+    { "id": "15", "title": "Nintendo Switch OLED", "sku": "NSWITCH-OLED", "inventory_quantity": 180 },
+    { "id": "16", "title": "JBL Charge 5 Bluetooth Speaker", "sku": "JBL-CHG5", "inventory_quantity": 120 },
+    { "id": "17", "title": "Logitech MX Master 3S", "sku": "MXMASTER3S-BLK", "inventory_quantity": 60 },
+    { "id": "18", "title": "Apple Watch Ultra", "sku": "AW-ULTRA-49MM", "inventory_quantity": 90 }
+  ],
+      "orders": [
+    { "id": "120", "customer": "Amelia Garcia", "line_items": [{ "name": "Apple AirPods Pro 2nd Gen", "quantity": 3 }] },
+    { "id": "121", "customer": "Lucas Perez", "line_items": [{ "name": "Samsung QLED 4K TV", "quantity": 1 }] },
+    { "id": "122", "customer": "Mia Robinson", "line_items": [{ "name": "Nintendo Switch OLED", "quantity": 2 }] },
+    { "id": "123", "customer": "Jack Lee", "line_items": [{ "name": "JBL Charge 5 Bluetooth Speaker", "quantity": 1 }] },
+    { "id": "124", "customer": "Amelia Harris", "line_items": [{ "name": "Logitech MX Master 3S", "quantity": 2 }] },
+    { "id": "125", "customer": "William Scott", "line_items": [{ "name": "Apple Watch Ultra", "quantity": 1 }] },
+    { "id": "126", "customer": "Zoe Martinez", "line_items": [{ "name": "Apple AirPods Pro 2nd Gen", "quantity": 1 }] }
+  ],
+      "inventory": [
+    { "id": "15", "sku": "APP2-WHT", "quantity": 150, "name": "Apple AirPods Pro 2nd Gen" },
+    { "id": "16", "sku": "QLED-55", "quantity": 35, "name": "Samsung QLED 4K TV" },
+    { "id": "17", "sku": "NSWITCH-OLED", "quantity": 180, "name": "Nintendo Switch OLED" },
+    { "id": "18", "sku": "JBL-CHG5", "quantity": 120, "name": "JBL Charge 5 Bluetooth Speaker" },
+    { "id": "19", "sku": "MXMASTER3S-BLK", "quantity": 60, "name": "Logitech MX Master 3S" },
+    { "id": "20", "sku": "AW-ULTRA-49MM", "quantity": 90, "name": "Apple Watch Ultra" },
+    { "id": "21", "sku": "APP2-WHT", "quantity": 150, "name": "Apple AirPods Pro 2nd Gen" }
+  ],
+      "orderTracking": [
+    { "orderId": "114", "tracking_number": "TRACK6797", "status": "Delivered", "product_name": "Sony WH-1000XM5 Headphones" },
+    { "orderId": "115", "tracking_number": "TRACK6798", "status": "Pending", "product_name": "Dell XPS 13 Laptop" },
+    { "orderId": "116", "tracking_number": "TRACK6799", "status": "Shipped", "product_name": "Fitbit Charge 5" },
+    { "orderId": "117", "tracking_number": "TRACK6800", "status": "Delivered", "product_name": "Nike Air Zoom Pegasus 40" }
+  ]
+    },
+    "store4": {
+      "apiKey": "9f557e199fc14ea283b8f0d6e57a7229",
+      "products": [
+    { "id": "19", "title": "Dyson V15 Detect Vacuum", "sku": "DYSON-V15", "inventory_quantity": 40 },
+    { "id": "20", "title": "Google Pixel 8 Pro", "sku": "GP8-PRO-128GB", "inventory_quantity": 100 },
+    { "id": "21", "title": "Razer Kraken V3 Headset", "sku": "RZKRKNV3-USB", "inventory_quantity": 80 },
+    { "id": "22", "title": "Fujifilm X-T4 Mirrorless Camera", "sku": "FXT4-18-55MM", "inventory_quantity": 50 },
+    { "id": "23", "title": "Dell UltraSharp 32 Monitor", "sku": "DELL-32-4K", "inventory_quantity": 65 },
+    { "id": "24", "title": "HP Spectre x360 14", "sku": "HPSX360-14", "inventory_quantity": 45 }
+  ],
+      "orders": [
+    { "id": "127", "customer": "Noah Lewis", "line_items": [{ "name": "Dyson V15 Detect Vacuum", "quantity": 1 }] },
+    { "id": "128", "customer": "Ella Walker", "line_items": [{ "name": "Google Pixel 8 Pro", "quantity": 2 }] },
+    { "id": "129", "customer": "Logan Young", "line_items": [{ "name": "Razer Kraken V3 Headset", "quantity": 1 }] },
+    { "id": "130", "customer": "Emily King", "line_items": [{ "name": "Fujifilm X-T4 Mirrorless Camera", "quantity": 2 }] },
+    { "id": "131", "customer": "Henry Wright", "line_items": [{ "name": "Dell UltraSharp 32 Monitor", "quantity": 1 }] },
+    { "id": "132", "customer": "Abigail Green", "line_items": [{ "name": "HP Spectre x360 14", "quantity": 1 }] },
+    { "id": "133", "customer": "Sebastian Adams", "line_items": [{ "name": "Dyson V15 Detect Vacuum", "quantity": 1 }] }
+  ],
+      "inventory": [
+    { "id": "22", "sku": "DYSON-V15", "quantity": 40, "name": "Dyson V15 Detect Vacuum" },
+    { "id": "23", "sku": "GP8-PRO-128GB", "quantity": 100, "name": "Google Pixel 8 Pro" },
+    { "id": "24", "sku": "RZKRKNV3-USB", "quantity": 80, "name": "Razer Kraken V3 Headset" },
+    { "id": "25", "sku": "FXT4-18-55MM", "quantity": 50, "name": "Fujifilm X-T4 Mirrorless Camera" },
+    { "id": "26", "sku": "DELL-32-4K", "quantity": 65, "name": "Dell UltraSharp 32 Monitor" },
+    { "id": "27", "sku": "HPSX360-14", "quantity": 45, "name": "HP Spectre x360 14" },
+    { "id": "28", "sku": "DYSON-V15", "quantity": 40, "name": "Dyson V15 Detect Vacuum" }
+  ],
+      "orderTracking": [
+    { "orderId": "118", "tracking_number": "TRACK6801", "status": "Delivered", "product_name": "Apple iPhone 15" },
+    { "orderId": "119", "tracking_number": "TRACK6802", "status": "Shipped", "product_name": "Samsung Galaxy S24" },
+    { "orderId": "120", "tracking_number": "TRACK6803", "status": "Pending", "product_name": "Sony WH-1000XM5 Headphones" },
+    { "orderId": "121", "tracking_number": "TRACK6804", "status": "Shipped", "product_name": "Dell XPS 13 Laptop" }
+  ]
+    },
+    "store5": {
+      "apiKey": "f9b3cc45999a47249cbe99b7d9fd92a0",
+      "products": [
+    { "id": "25", "title": "TCL 6-Series 55” 4K TV", "sku": "TCL6-55-4K", "inventory_quantity": 150 },
+    { "id": "26", "title": "Oculus Quest 2 VR Headset", "sku": "OQ2-64GB", "inventory_quantity": 85 },
+    { "id": "27", "title": "GoPro Hero 10 Black", "sku": "GPH10-BLK", "inventory_quantity": 120 },
+    { "id": "28", "title": "Samsung Galaxy Watch 6", "sku": "SGW6-BLK", "inventory_quantity": 100 },
+    { "id": "29", "title": "Beats Fit Pro Wireless Earbuds", "sku": "BFP-BLK", "inventory_quantity": 140 },
+    { "id": "30", "title": "Canon EOS 90D Camera", "sku": "CRT90D-18-135MM", "inventory_quantity": 60 }
+  ],
+      "orders": [
+    { "id": "134", "customer": "Oliver Perez", "line_items": [{ "name": "TCL 6-Series 55” 4K TV", "quantity": 1 }] },
+    { "id": "135", "customer": "Grace Mitchell", "line_items": [{ "name": "Oculus Quest 2 VR Headset", "quantity": 2 }] },
+    { "id": "136", "customer": "Samuel Lee", "line_items": [{ "name": "GoPro Hero 10 Black", "quantity": 1 }] },
+    { "id": "137", "customer": "Charlotte Harris", "line_items": [{ "name": "Samsung Galaxy Watch 6", "quantity": 3 }] },
+    { "id": "138", "customer": "Eli Davis", "line_items": [{ "name": "Beats Fit Pro Wireless Earbuds", "quantity": 2 }] },
+    { "id": "139", "customer": "Eleanor Clark", "line_items": [{ "name": "Canon EOS 90D Camera", "quantity": 1 }] },
+    { "id": "140", "customer": "Lily Walker", "line_items": [{ "name": "TCL 6-Series 55” 4K TV", "quantity": 1 }] }
+  ],
+      "inventory": [
+    { "id": "29", "sku": "TCL6-55-4K", "quantity": 150, "name": "TCL 6-Series 55” 4K TV" },
+    { "id": "30", "sku": "OQ2-64GB", "quantity": 85, "name": "Oculus Quest 2 VR Headset" },
+    { "id": "31", "sku": "GPH10-BLK", "quantity": 120, "name": "GoPro Hero 10 Black" },
+    { "id": "32", "sku": "SGW6-BLK", "quantity": 100, "name": "Samsung Galaxy Watch 6" },
+    { "id": "33", "sku": "BFP-BLK", "quantity": 140, "name": "Beats Fit Pro Wireless Earbuds" },
+    { "id": "34", "sku": "CRT90D-18-135MM", "quantity": 60, "name": "Canon EOS 90D Camera" },
+    { "id": "35", "sku": "TCL6-55-4K", "quantity": 150, "name": "TCL 6-Series 55” 4K TV" }
+  ],
+      "orderTracking": [
+    { "orderId": "122", "tracking_number": "TRACK6805", "status": "Delivered", "product_name": "Fitbit Charge 5" },
+    { "orderId": "123", "tracking_number": "TRACK6806", "status": "Shipped", "product_name": "Nike Air Zoom Pegasus 40" },
+    { "orderId": "124", "tracking_number": "TRACK6807", "status": "Pending", "product_name": "Apple iPhone 15" },
+    { "orderId": "125", "tracking_number": "TRACK6808", "status": "Delivered", "product_name": "Samsung Galaxy S24" }
+  ]
+    },
+    "store6": {
+      "products": [
+    { "id": "31", "title": "iPad Pro 11-inch 2022", "sku": "IPADPRO-11-128GB", "inventory_quantity": 110 },
+    { "id": "32", "title": "Nikon D850 DSLR Camera", "sku": "NIKD850-24-120MM", "inventory_quantity": 45 },
+    { "id": "33", "title": "Apple Mac Mini M2", "sku": "MACMINI-M2-512GB", "inventory_quantity": 70 },
+    { "id": "34", "title": "Sony A7 III Mirrorless Camera", "sku": "SONYA7III-28-70MM", "inventory_quantity": 50 },
+    { "id": "35", "title": "Fitbit Versa 4", "sku": "FBVERSA4-BLK", "inventory_quantity": 130 },
+    { "id": "36", "title": "Ecovacs Deebot X1", "sku": "ECO-X1", "inventory_quantity": 80 }
+  ],
+      "orders": [
+    { "id": "141", "customer": "David Thomas", "line_items": [{ "name": "iPad Pro 11-inch 2022", "quantity": 2 }] },
+    { "id": "142", "customer": "Madeline King", "line_items": [{ "name": "Nikon D850 DSLR Camera", "quantity": 1 }] },
+    { "id": "143", "customer": "Jackie Johnson", "line_items": [{ "name": "Apple Mac Mini M2", "quantity": 1 }] },
+    { "id": "144", "customer": "Lucas Carter", "line_items": [{ "name": "Sony A7 III Mirrorless Camera", "quantity": 1 }] },
+    { "id": "145", "customer": "Sophie Evans", "line_items": [{ "name": "Fitbit Versa 4", "quantity": 3 }] },
+    { "id": "146", "customer": "Grace Green", "line_items": [{ "name": "Ecovacs Deebot X1", "quantity": 1 }] },
+    { "id": "147", "customer": "Aiden Moore", "line_items": [{ "name": "iPad Pro 11-inch 2022", "quantity": 1 }] }
+  ],
+      "inventory": [
+    { "id": "36", "sku": "IPADPRO-11-128GB", "quantity": 110, "name": "iPad Pro 11-inch 2022" },
+    { "id": "37", "sku": "NIKD850-24-120MM", "quantity": 45, "name": "Nikon D850 DSLR Camera" },
+    { "id": "38", "sku": "MACMINI-M2-512GB", "quantity": 70, "name": "Apple Mac Mini M2" },
+    { "id": "39", "sku": "SONYA7III-28-70MM", "quantity": 50, "name": "Sony A7 III Mirrorless Camera" },
+    { "id": "40", "sku": "FBVERSA4-BLK", "quantity": 130, "name": "Fitbit Versa 4" },
+    { "id": "41", "sku": "ECO-X1", "quantity": 80, "name": "Ecovacs Deebot X1" },
+    { "id": "42", "sku": "IPADMINI6-64GB", "quantity": 150, "name": "Apple iPad Mini 6" }
+  ],
+      "orderTracking": [
+    { "orderId": "126", "tracking_number": "TRACK6809", "status": "Shipped", "product_name": "Sony WH-1000XM5 Headphones" },
+    { "orderId": "127", "tracking_number": "TRACK6810", "status": "Delivered", "product_name": "Dell XPS 13 Laptop" },
+    { "orderId": "128", "tracking_number": "TRACK6811", "status": "Delivered", "product_name": "Fitbit Charge 5" },
+    { "orderId": "129", "tracking_number": "TRACK6812", "status": "Shipped", "product_name": "Nike Air Zoom Pegasus 40" }
+  ]
+    }
+  }
+  

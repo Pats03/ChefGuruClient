@@ -1,0 +1,72 @@
+:root {
+  --yellow: linear-gradient(180deg, #f8d49a -146.42%, #fad79d -46.42%);
+  --orange: #fca61f;
+  --black: #242d49;
+  --gray: #788097;
+  --purple: linear-gradient(180deg, #bb67ff 0%, #c484f3 100%);
+  --pink: #ff919d;
+  --glass: rgba(255, 255, 255, 0.54);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  --activeItem: #f799a354;
+  --logoSize: 6em; /* Keep logo size consistent */
+  --transitionTime: 300ms;
+  --boxPadding: 2em;
+  --textColor: #888; /* Color for the text */
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: var(--logoSize);
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter var(--transitionTime);
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: var(--boxPadding);
+}
+
+.read-the-docs {
+  color: var(--textColor);
+}
+
+/* Additional Consistency for Visual Design */
+.card,
+.logo {
+  box-shadow: var(--boxShadow);
+}
+
+.card:hover,
+.logo:hover {
+  box-shadow: var(--smboxShadow);
+}

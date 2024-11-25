@@ -8,10 +8,12 @@ const Footer = () => {
       <div className="container mx-auto px-4 lg:px-20 py-10 flex flex-col gap-10 md:flex-row justify-between border-t border-gray-700">
         <div className="flex flex-col items-center md:items-start">
           <p className="font-bold text-center text-2xl">
-            Chef<span className="text-green-500 text-2xl">Guru</span>
+            Stay<span className="text-green-500 text-2xl">Connected</span> with
+            Synkro
           </p>
           <p className="mt-2 text-gray-400">
-            Delicious Recipes at Your Fingertips
+            Keep your inventory up to date instantly – Synkro ensures seamless
+            real-time synchronization across all your channels.
           </p>
         </div>
 
@@ -22,28 +24,28 @@ const Footer = () => {
               Home
             </a>
             <a
-              href="#gallery"
+              href="#features"
               className="block md:inline-block hover:text-gray-300"
             >
-              Gallery
+              Features
             </a>
             <a
-              href="#testimonials"
+              href="#pricing"
               className="block md:inline-block hover:text-gray-300"
             >
-              Testimonials
+              Pricing
             </a>
             <a
-              href="#service"
+              href="#about"
               className="block md:inline-block hover:text-gray-300"
             >
-              Services
+              About Us
             </a>
             <a
-              href="#team"
+              href="#contact"
               className="block md:inline-block hover:text-gray-300"
             >
-              Team
+              Contact Us
             </a>
           </div>
         </div>
@@ -55,25 +57,19 @@ const Footer = () => {
               Terms and Conditions
             </a>
             <a href="#" className="block md:inline-block hover:text-gray-300">
-              License Agreement
-            </a>
-            <a href="#" className="block md:inline-block hover:text-gray-300">
               Privacy Policy
             </a>
             <a href="#" className="block md:inline-block hover:text-gray-300">
-              Copyright Information
-            </a>
-            <a href="#" className="block md:inline-block hover:text-gray-300">
-              Cookies Policy
+              Cookie Policy
             </a>
           </div>
         </div>
 
         <div className="flex flex-col items-center md:items-start">
-          <p className="font-semibold text-lg mb-4">Social Media</p>
+          <p className="font-semibold text-lg mb-4">Follow Us</p>
           <div className="flex mt-4 gap-3">
             <a
-              href="https://www.facebook.com/login/"
+              href="https://www.facebook.com/"
               className="bg-blue-600 p-2 rounded-full text-white hover:text-gray-500 hover:scale-110 transition-transform"
             >
               <FaFacebook size={18} />
@@ -85,7 +81,7 @@ const Footer = () => {
               <FaInstagram size={18} />
             </a>
             <a
-              href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D"
+              href="https://twitter.com/"
               className="bg-blue-600 p-2 rounded-full text-white hover:text-gray-500 hover:scale-110 transition-transform"
             >
               <FaTwitter size={18} />
@@ -98,14 +94,16 @@ const Footer = () => {
             </a>
           </div>
           <Button
-            title="Sign up"
+            title="Get Started"
             btnType="button"
             containerStyle="mt-10 md:block bg-transparent border border-white text-white hover:bg-white hover:text-black rounded-md min-w-[130px]"
           />
         </div>
       </div>
       <div className="flex items-center justify-center py-4">
-        <span className="text-gray-400 leading-10">CodeWave &copy; 2023</span>
+        <span className="text-gray-400 leading-10">
+          Synkro &copy; 2023 | Powered by Amazon MCF and Shopify
+        </span>
       </div>
     </footer>
   );

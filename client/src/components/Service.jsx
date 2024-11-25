@@ -1,31 +1,32 @@
 import React from 'react';
-import { FaUtensils, FaSearch, FaBookmark } from 'react-icons/fa';
+import { FaShoppingCart, FaShippingFast, FaSyncAlt } from 'react-icons/fa';
 
 const services = [
   {
-    title: 'Recipe Suggestions',
+    title: 'E-Commerce Integration',
     description:
-      'Get personalized recipe suggestions based on your preferences.',
-    icon: <FaUtensils className="text-4xl text-red-500" />,
+      'Seamlessly integrate your store with eCommerce platforms like Shopify, eBay, Etsy, and more for efficient order management and fulfillment.',
+    icon: <FaShoppingCart className="text-4xl text-purple-500" />,
   },
   {
-    title: 'Search Recipes',
+    title: 'Fast Shipping & Fulfillment',
     description:
-      'Search for recipes using ingredients, cuisine type, and more.',
-    icon: <FaSearch className="text-4xl text-green-500" />,
+      'Leverage Amazon’s Multi-Channel Fulfillment service to ensure fast and reliable shipping for orders from any sales channel, including Shopify, eBay, and your website.',
+    icon: <FaShippingFast className="text-4xl text-red-500" />,
   },
   {
-    title: 'Save Favorites',
-    description: 'Bookmark your favorite recipes for easy access later.',
-    icon: <FaBookmark className="text-4xl text-yellow-500" />,
+    title: 'Inventory Synchronization',
+    description:
+      'Automatically sync your inventory levels between your online store and Amazon’s fulfillment centers, ensuring accurate stock management across all sales channels.',
+    icon: <FaSyncAlt className="text-4xl text-green-500" />,
   },
 ];
 
 const Service = () => {
   return (
-    <section className="py-10 px-4 md:px-20 bg-cream-100">
+    <section className="py-10 px-4 md:px-20 bg-gray-100">
       <h2 className="text-2xl md:text-4xl font-bold mb-6 text-center text-gray-800">
-        Our Services
+        Our E-Commerce Services
       </h2>
       <div className="flex flex-wrap justify-center gap-8">
         {services.map((service, index) => (
